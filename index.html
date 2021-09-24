@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="C:\Users\X\Desktop\rock, paper scissors\style.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+
+<body>
+    <header> Rock Paper Scissors </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <span id="user-score" class="score">0</span>:<span id="computer-score" class="score">0</span>
+        <div id="computer-label" class="badge">bot</div>
+    </div>
+
+    <div id="result">
+        <p>start</p>
+    </div>
+
+    <p id="action-message"> Make your move! </p>
+
+    <div class="choices">
+        <button id="rock" onclick="myChoice(this.id)" class="choice">
+            <img src="https://raw.githubusercontent.com/GiorgianaBirsan/Rock-paper-scissors-game/main/images/rock.png" alt="rock">
+            rock
+        </button>
+
+        <button id="paper" onclick="myChoice(this.id)" class="choice">
+          <img src="https://raw.githubusercontent.com/GiorgianaBirsan/Rock-paper-scissors-game/main/images/paper.png" alt="paper">
+          paper
+        </button>
+
+        <button id="scissors" onclick="myChoice(this.id)" class="choice">
+            <img src="https://raw.githubusercontent.com/GiorgianaBirsan/Rock-paper-scissors-game/main/images/scissors.png" alt="scissors">
+            scissors
+        </button>
+
+        </button>
+
+        <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
